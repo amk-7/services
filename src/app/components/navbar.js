@@ -2,6 +2,7 @@
 export default function NavBar() {
     return (
         <nav className='nav'>
+            <span className="text-2xl">Nas delice</span>
             <ul className='flex space-x-6'>
                 <a href="#home">
                     <li className="nav-item">Home</li>
@@ -14,7 +15,6 @@ export default function NavBar() {
                     <li className="nav-item">Equipes</li>
                 </a>
             </ul>
-            <span className="text-2xl">Nas delice</span>
         </nav>
     )
 }
